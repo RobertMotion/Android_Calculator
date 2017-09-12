@@ -1,0 +1,332 @@
+body {
+    width: 1200px;
+    height: 1200px;
+    margin: 0px;
+    padding-left: 80px;
+}
+
+div {
+    border: 2px SOLID BLACK;
+}
+
+.pic {
+    width: 392px;
+    height: 696px;
+    z-index: -9999999;
+    box-shadow: 10px 10px 5px rgb(123, 126, 122);
+}
+
+input {
+    position: relative;
+    height: 82px;
+    top: -790px;
+    left: 35.5px;
+    font-size: 15px;
+    box-shadow: 0px 0px 2px 2px;
+    border: white;
+}
+
+img {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.box {
+    height: 53.5px;
+    width: 53.9px;
+    box-shadow: 0px 0px 25px 0px;
+    border-bottom-color: gray;
+    position: relative;
+    font-size: 13pt;
+    color: red;
+}
+
+.box:focus {
+    outline: none;
+}
+
+#box1 {
+    background-color: darkslateblue;
+    color: navajowhite;
+    left: 314px;
+    top: -406.9px;
+}
+
+#box2 {
+    background-color: orangered;
+    color: navajowhite;
+    top: -349px;
+    right: 25px;
+}
+
+#box3 {
+    background-color: #0e8012;
+    color: navajowhite;
+    top: -294.9px;
+    left: -138.9px;
+}
+
+#box4 {
+    background-color: red;
+    color: navajowhite;
+    top: -349.5px;
+    left: 139.9px
+}
+
+#box5 {
+    background-color: darkcyan;
+    color: navajowhite;
+    top: -460.6px;
+    left: 80.9px;
+}
+
+#box6 {
+    background-color: darkcyan;
+    color: navajowhite;
+    top: -460px;
+    left: -144px;
+}
+
+#box7 {
+    background-color: darkgrey;
+    color: navajowhite;
+    top: -409px;
+    left: -3px;
+}
+
+#box8 {
+    background-color: orangered;
+    color: navajowhite;
+    top: -465.6px;
+    left: 220.5px;
+}
+
+#box9 {
+    background-color: green;
+    color: navajowhite;
+    top: -463.6px;
+    left: -120px;
+}
+
+#box0 {
+    position: absolute;
+    background-color: salmon;
+    color: navajowhite;
+    top: 367px;
+    right: 731.8px;
+}
+
+#plus {
+    background-color: white;
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    top: -132px;
+    left: 89px;
+}
+
+#minus {
+    background-color: white;
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    top: -132px;
+    left: 101px;
+}
+
+#multiply {
+    background-color: white;
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    left: 115px;
+    /*
+    top: -132px;
+    right: 135px;
+*/
+}
+
+#divide {
+    background-color: white;
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    top: -131.6px;
+    right: 101px;
+}
+
+#AC {
+    background-color: white;
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    font-size: 7pt;
+    top: -135px;
+    left: 45px;
+}
+
+#equals {
+    height: 40px;
+    width: 40px;
+    box-shadow: none;
+    border-bottom-color: none;
+    background-color: rgba(255, 255, 255, 0.01);
+    opacity: 5;
+    border: none;
+    color: rgba(255, 222, 173, 0);
+    border-radius: 50px;
+    top: -190px;
+    left: -238px;
+}
+
+#multiply {
+    background-color: white;
+    color: red;
+    font-size: 12pt;
+    left: -113px;
+    top: -134px;
+}
+
+#click {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    top: -235px;
+    right: 205px;
+    background-color: azure;
+}
+
+#avg {
+    background-color: white;
+    color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    font-size: 7pt;
+    top: -205px;
+    right: 33px;
+}
+
+#click:focus {
+    outline: none;
+}
+
+.ball2 {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: azure;
+}
+
+.ball2:focus {
+    outline: none;
+}
+
+#pos1 {
+    margin-left: 537px;
+    margin-top: -315px;
+}
+
+#pos2 {
+    position: relative;
+    margin-left: 578px;
+    margin-top: -50px;
+}
+
+#pos3 {
+    margin-left: 615px;
+    margin-top: -20px;
+}
+
+#pos4 {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 655px;
+}
+
+#pos5 {
+    margin-left: 690px;
+}
+
+#pos6 {
+    margin-left: 718px;
+    margin-top: 2px;
+}
+
+#pos7 {
+    margin-left: 679px;
+    margin-top: 6px;
+}
+
+#pos8 {
+    margin-left: 639px;
+    margin-top: 4px;
+}
+
+#pos9 {
+    margin-left: 598px;
+    margin-top: 6px;
+}
+
+#pos10 {
+    position: absolute;
+    margin-left: 569px;
+}
+
+.ball2 {
+    animation: colorchange .5s;
+    /* animation-name followed by duration in seconds*/
+    /* i can also use milliseconds (ms) or something like 2.5s */
+    -webkit-animation: colorchange 50s;
+    /* needed for chrome and safari*/
+}
+
+@keyframes colorchange {
+    0% {
+        background: rgba(255, 49, 0, 0.84);
+    }
+    25% {
+        background: rgba(255, 255, 0, 0.85);
+    }
+    50% {
+        background: blue;
+    }
+    75% {
+        background: rgba(0, 128, 0, 0.66);
+    }
+    100% {
+        background: rgba(128, 0, 128, 0.6);
+    }
+}
+
+@-webkit-keyframes colorchange
+/* needed for Safari and Chrome */
+
+{
+    0% {
+        background: rgba(255, 0, 0, 0.69);
+    }
+    25% {
+        background: rgba(255, 255, 0, 0.67);
+    }
+    50% {
+        background: blue;
+    }
+    75% {
+        background: rgba(0, 128, 0, 0.68);
+    }
+    100% {
+        background: rgba(255, 0, 0, 0.63);
+    }
+}
+
+
+}
